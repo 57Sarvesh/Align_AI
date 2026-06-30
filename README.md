@@ -174,6 +174,15 @@ posture-detection-app/
 3. Make your changes
 4. Submit a pull request
 
+### Performance Optimization
+- Adjust frame capture interval in `WebcamCapture.tsx`
+- Modify video analysis frame sampling rate
+- Consider using different MediaPipe model complexity settings
+
+## License
+
+This project is open source and available under the MIT License.
+
 ## Support
 
 For issues and questions, please open an issue in the GitHub repository.
@@ -185,12 +194,5 @@ For issues and questions, please open an issue in the GitHub repository.
 3. **CORS Issues**: Verify CORS settings in `main.py`
 4. **MediaPipe Installation**: May require specific Python version compatibility
 
-### Performance Optimization
-- Adjust frame capture interval in `WebcamCapture.tsx`
-- Modify video analysis frame sampling rate
-- Consider using different MediaPipe model complexity settings
 
-## License
-
-This project is open source and available under the MIT License.
 
